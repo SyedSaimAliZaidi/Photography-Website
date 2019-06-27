@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 	styles	 -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.grid.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.grid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+
+	<link rel="stylesheet" href="http://www.1001fonts.com/text-fonts.html">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+ 
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+
+	<title>AB Photography</title>
+	<style type="text/css">
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {				
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+hr {
+  border-color: #F05F40;
+  border-width: 3px;
+  max-width: 50px;
+}
+hr.light {
+  border-color: white;
+}
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #F05F40;
+}
+a:hover,
+a:focus {
+  color: #eb3812;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+			font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.bg-dark {
+  background-color: #222222;
+  color: white;
+}
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section {
+  padding: 100px 0;
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(_DSF4862.jpg)no-repeat 0 0 / cover;
+
+	display: table;
+	background-attachment: fixed; 
+}
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 18px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.call-to-action h2 {
+  margin: 0 auto 20px;
+}
+.text-primary {
+  color: #F05F40;
+}
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#logoText{
+	/*font-family: courier;*/
+			font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+	color: white;
+}
+#navText{
+	color: white;
+	/*font-weight: bold;*/
+	/*font-family: courier;			*/
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+.gallery-block{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.gallery-block .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-block.compact-gallery .item{
+  overflow: hidden;
+  margin-bottom: 0;
+  background: transparent;
+  opacity: 1;
+}
+
+.gallery-block.compact-gallery .item .image{
+  transition: 0.8s ease;
+}
+
+.gallery-block.compact-gallery .item .info{
+  position: relative;
+    display: inline-block;
+}
+
+.gallery-block.compact-gallery .item .description{
+  display: grid;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 18px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 1;
+    color: #fff;
+    transition: 0.8s ease;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
+}
+
+.gallery-block.compact-gallery .item .description .description-heading{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.gallery-block.compact-gallery .item .description .description-body{
+  font-size: 0.8em;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+@media (min-width: 576px) {
+
+  .gallery-block.compact-gallery .item .description {
+    opacity: 0; 
+  }
+
+  .gallery-block.compact-gallery .item a:hover .description {
+    opacity: 1; 
+  } 
+
+  .gallery-block .zoom-on-hover:hover .image {
+    transform: scale(1.3);
+    opacity: 0.7; 
+  }
+}
+
+</style>
+</head>
+<body>
+		
+	<!-- <div class="fh5co-loader"></div> -->
+	<div class="container-fluid bg-transparent">
+		<nav class="navbar navbar-dark fixed-top bg-transparent ">
+		  <a id="logoText" class="navbar-brand" href="#">AB Photography</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarsExample01">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a id="navText" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a id="navText" class="nav-link" href="Gallery.html">Gallery</a>
+		      </li>
+		      <li class="nav-item">
+		        <a id="navText" class="nav-link" href="index.html#about">About</a>
+		      </li> 
+		      <li class="nav-item">
+		        <a id="navText" class="nav-link" href="index.html#contact">Contact</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+
+    <header>
+	   <section class="gallery-block compact-gallery">
+	    	<div class="container">
+	    		<div class="heading">
+	    			<h2>Gallery</h2>
+	    			<hr>
+	    		</div>
+	    		
+	    		<div class="row no-gutters p-1">
+	    			<div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    				<a class="lightbox" href="images/_DSF2840.jpg">
+	    					<img class="img-fluid image" src="thumbnails/_DSF2840.jpg">
+	    				</a>
+	    			</div>
+	    			
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/PSX_20180506_123954.jpg">
+	                        <img class="img-fluid image" src="thumbnails/PSX_20180506_123954.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/_DSF4946.jpg">
+	                        <img class="img-fluid image" src="thumbnails/_DSF4946.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/PSX_20180504_081710.jpg">
+	                        <img class="img-fluid image" src="thumbnails/PSX_20180504_081710.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/PSX_20180321_160951.jpg">
+	                        <img class="img-fluid image" src="thumbnails/PSX_20180321_160951.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/_DSF5407 1.jpg">
+	                        <img class="img-fluid image" src="thumbnails/_DSF5407 1.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/PSX_20180321_161732.jpg">
+	                        <img class="img-fluid image" src="thumbnails/PSX_20180321_161732.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/PSX_20171104_202832.jpg">
+	                        <img class="img-fluid image" src="thumbnails/PSX_20171104_202832.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/PSX_20180321_163234.jpg">
+	                        <img class="img-fluid image" src="thumbnails/PSX_20180321_163234.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/edited1.jpg">
+	                        <img class="img-fluid image" src="thumbnails/edited1.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/_DSF49761.jpg">
+	                        <img class="img-fluid image" src="thumbnails/_DSF49761.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/_DSF5503.jpg">
+	                        <img class="img-fluid image" src="thumbnails/_DSF5503.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/_DSF5499.jpg">
+	                        <img class="img-fluid image" src="thumbnails/_DSF5499.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/PSX_20180316_201318.jpg">
+	                        <img class="img-fluid image" src="thumbnails/PSX_20180316_201318.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/PSX_20171029_111733.jpg">
+	                        <img class="img-fluid image" src="thumbnails/PSX_20171029_111733.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/PSX_20180321_161339.jpg">
+	                        <img class="img-fluid image" src="thumbnails/PSX_20180321_161339.jpg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/LRM_EXPORT_302327439716019_20181230_235953960.jpeg">
+	                        <img class="img-fluid image" src="thumbnails/LRM_EXPORT_302327439716019_20181230_235953960.jpeg">
+	                    </a>
+	                </div>
+	                <div class="col-md-6 col-lg-4 item zoom-on-hover p-2">
+	    			    <a class="lightbox" href="images/_DSF4961.jpg">
+	                        <img class="img-fluid image" src="thumbnails/_DSF4961.jpg">
+	                    </a>
+	                </div>
+	    		</div>
+	    	</div>
+	    </section>
+
+    </header>
+
+
+ 	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+
+ 	<script>
+
+	      baguetteBox.run('.compact-gallery',{animation:'slideIn'});
+	  </script>
+
+</body>
+</html>
